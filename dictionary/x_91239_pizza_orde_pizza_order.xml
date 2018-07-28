@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Pizza Order" max_length="40" name="x_91239_pizza_orde_pizza_order" type="collection">
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Type" max_length="100" name="type" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
